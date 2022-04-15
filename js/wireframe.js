@@ -21,11 +21,11 @@ let obj_i = obj.indices.v;
 obj_i = edgeList(obj_i);
 
 let mouse = {x:0,y:0};
-canvas.onmousemove = (e)=>{
+window.onmousemove = (e)=>{
     mouse.x = (2.*e.clientX-ww)/wh;
     mouse.y = (2.*e.clientY-wh)/wh;
 }
-canvas.ontouchmove = (e)=>{
+window.ontouchmove = (e)=>{
     mouse.x = (2.*e.touches[0].clientX-ww)/wh;
     mouse.y = (2.*e.touches[0].clientY-wh)/wh;
 }
