@@ -10,7 +10,7 @@ License URI: https://www.gnu.org/licenses/gpl.html
 */
 
 
-/*html,body,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video, body, ol,ul, blockquote,q,blockquote:before,blockquote:after,q:before,q:after,table,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,.clear,.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}*/
+html,body,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video, body, ol,ul, blockquote,q,blockquote:before,blockquote:after,q:before,q:after,table,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,.clear,.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}
 
 
 
@@ -33,72 +33,9 @@ color:red; text-decoration:none;}
 
 
 
-p{
-	font-size: 13px;
-}
+p {
+font-size: 13px;
 
-pre{
-	font-size: 14px;
-	font-family: courier;
-	color: #a0a0a0;
-}
-
-.sptext{
-	text-align: center;
-	font-size: 14px;
-}
-
-.headerlink{
-	font-weight: 800;
-	font-size: 18px;
-}
-
-.entry-content-about{
-	text-align: center;
-}
-div.entry-content-about{
-	padding: 0px;
-}
-.news{
-	font-family: "Julius Sans One", arial, sans-serif;
-	padding: 0px;
-}
-.entry-content > hr{
-	width: 40%;
-  background-color: #000000;
-    border: 0 none;
-    color: #000000;
-    height: 1px;
-}
-.centerimg{
-	/*margin-bottom: 55px;*/
-}
-.footer-section{
-	margin-top: 70px;
-}
-
-.footertext{
-	margin-top: 40px;
-}
-
-.main-body{
-	/*background-color: #efefef;*/
-}
-
-.spash-body{
-	background-color: #cccccc;
-	/*background: -webkit-canvas(geom)*/
-}
-
-.spash-canvas{
-  position: absolute;
-  top: 0; 
-  left: 0;
-  display: inline;
-  z-index: -1;
-  background-color: #cccccc;
-/*  width: 100%;
-  height: 100%;*/
 }
 
 span.price {
@@ -226,3 +163,46 @@ border: 0;
 
 }
 
+/* ECOMMERCE */
+
+
+.store-info-left {
+
+width:450px;
+
+}
+
+.commerce_glyph {
+
+position: fixed;
+right:200px;
+top:137px;
+
+height:200px;
+width:200px;
+
+.buy_now_text {
+float: left;
+width: 150px;
+border-left-style:solid;
+border-left-color:#4A483C;
+border-left-width:5px;
+
+}
+
+.buy_now_button {
+margin-left: 150px;
+width: 150px;
+border-left-style:solid;
+border-left-color:#4A483C;
+border-left-width:5px;
+
+}
+
+.store-page-item {
+padding-left:8px;
+border-left-style:solid;
+border-left-color:#4A483C;
+border-left-width:5px;
+
+}
