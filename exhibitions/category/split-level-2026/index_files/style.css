@@ -1,0 +1,208 @@
+/*
+Theme Name: BlankSlate
+Description: 3.0+ has been completely and massively overhauled. DO NOT UPGRADE current projects (anything below 3.0) to this version automatically. You will lose all customizations whether you're using a child theme or not. BEFORE USING AND ESPECIALLY UPGRADING IN GENERAL PLEASE READ: tidythemes.com/concept. The bare essentials of a WordPress theme (an HTML5 boilerplate), no visual CSS styles added. Perfect for those who would like to build their own theme from scratch or for clients if you're a developer or designer. This theme is clean, valid code, semi-minified, no programmer comments, SEO-friendly and 100% open source. One custom menu and one widgetized sidebar to get you started. If you don't know CSS and would like to learn we've prepared: tidythemes.com/want-to-learn-css and please visit us in the forum for further help: tidythemes.com/forum - Thank You and Enjoy
+Author: TidyThemes
+Author URI: http://tidythemes.com/
+Version: 3.3
+Tags: black, blue, white, light, one-column, flexible-width, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+*/
+
+
+html,body,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video, body, ol,ul, blockquote,q,blockquote:before,blockquote:after,q:before,q:after,table,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,.clear,.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}
+
+
+
+
+
+/* OVERALL FORMATTING */
+
+form {
+    display: inline;
+}
+
+a:link {color:#4A483C; text-decoration:none;}    /* unvisited link */
+a:visited {color:#4A483C; text-decoration:none;} /* visited link */
+a:hover {color:#E0D794; text-decoration:none;}   /* mouse over link */
+a:active {color:#E0D794; text-decoration:none;}  /* selected link */
+
+#image:hover a {
+
+color:red; text-decoration:none;}
+
+
+
+p {
+font-size: 13px;
+
+}
+
+span.price {
+display:inline-block;
+margin-bottom:20px;
+}
+
+br {
+font-size: 12px;
+margin-top: 1px;
+margin-bottom: 1px;
+}
+
+ul.noindent {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+li {
+
+list-style-type: none;
+
+}
+
+h2 {
+font-size: 12px;
+}
+
+h6 {
+font-style:normal;
+color:#4A483C;
+}
+
+.wp-caption {
+padding-top:20px;
+padding-bottom:20px;
+font-size: 10px;
+text-align: left;
+
+}
+
+
+
+/* CONTENT BOXES */
+
+.book_container {
+margin-left: auto;
+margin-right: auto;
+width:500px;
+padding:25px;
+margin-bottom:40px;
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+
+}
+
+.entry-content {
+
+
+width: 700px ;
+margin-left: auto ;
+margin-right: auto ;
+
+
+}
+
+.entry-content-about {
+
+padding-top:85px;
+width: 700px ;
+margin-left: auto ;
+margin-right: auto ;
+
+
+}
+
+.header-menu {
+text-align:center;
+padding-top:6px;
+width: 700px ;
+margin-left: auto ;
+margin-right: auto ;
+
+}
+
+.entry-content-front {
+
+bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+
+}
+
+.horizon {
+    height: 466px;
+    left: 50%;
+    margin-left: -450px;
+    position: absolute;
+    top: -233px;
+    width: 900px;
+}
+
+.prev-corner {
+position: fixed; 
+top: 0; 
+left: 0; 
+padding-top:33px;
+padding-left:10px;
+border: 0;
+}
+
+.next-corner {
+position: fixed; 
+top: 0; 
+right: 0; 
+padding-top:33px;
+padding-right:10px;
+border: 0;
+
+}
+
+/* ECOMMERCE */
+
+
+.store-info-left {
+
+width:450px;
+
+}
+
+.commerce_glyph {
+
+position: fixed;
+right:200px;
+top:137px;
+
+height:200px;
+width:200px;
+
+.buy_now_text {
+float: left;
+width: 150px;
+border-left-style:solid;
+border-left-color:#4A483C;
+border-left-width:5px;
+
+}
+
+.buy_now_button {
+margin-left: 150px;
+width: 150px;
+border-left-style:solid;
+border-left-color:#4A483C;
+border-left-width:5px;
+
+}
+
+.store-page-item {
+padding-left:8px;
+border-left-style:solid;
+border-left-color:#4A483C;
+border-left-width:5px;
+
+}
